@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/reprecss/courses.css">
+    <link rel="stylesheet" href="/reprejava/particles.js">
+    <script src="particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div >
+      <img class="pics" src="/PICS/cvsu.png" alt="">
+    </div>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox"id="checkbox_toggle" />
+      <label for="checkbox_toggle"class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      
+      <div class="menu">
+
+        <li><a href="/reprehtml/prelim.html">HOME</a></li>
+        <li><a href="/reprehtml/prelim.html">HISTORY</a></li>
+        <li><a href="#">OFFERS</a></li>
+        <li><a href="#">CONTACT</a></li>
+       <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+      </div>
+    </ul>
+  </nav>
+
+  <section>
+
+  <div id="id01" class="modal">
+
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="/PICS/cvsu.png" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="submit">Login</button>
+      </div>
+    </form>
+  </div>
+  </section>
+
+  <section class="loop" id="HOME">
+    <h1 class="name">CAVITE STATE UNIVERSITY <div class="roller">
+        </div>
+
+  </section>
+
+  <!-- stats - count particles -->
+  <div id ="particles-js">  </div>
+  <section class="section-skills">
+    <div class="section-skills-header">            
+      <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+        <br><br><br><p class="offered">Courses Offered</p>
+      </div><br><br><br><br>
+      <div class="skills-cards-wrapper">
+      <!--Card 01-->
+      
+      <div class="skills-card blue" id="card-01">
+        <h2>BSBM</h2><br>
+        <p>Bachelor of Science in Business Management</p>
+        <li>Major in Marketing</li>
+        <div class="skills-img-wrap"></div>
+      </div>
+        <!--Card 02-->
+      <div class="skills-card orange" id="card-02">
+        <h2>BSED</h2><br>
+        <p>Bachelor of Secondary Education</p>
+        <li>Major in English</li>
+        <li>Major in Math</li>
+        <div class="skills-img-wrap"></div>
+      </div>
+        <!--Card 03-->
+      <div class="skills-card green" id="card-03">
+        <h2>BSCS</h2><br>
+        <p>Bachelor of Science Computer Science</p>
+        <div class="skills-img-wrap"></div>
+      </div>
+      <!--Card 04-->
+      <div class="skills-card red" id="card-04">
+        <h2>bscrim </h2><br>
+        <p>Bachelor of Science in Criminology</p>
+        <div class="skills-img-wrap"></div>
+      </div> 
+      <!--Card 05-->
+      <div class="skills-card green" id="card-05">
+        <h2>BSHM</h2><br>
+        <p>Bachelor of Science in Hospitality Management (formerly BS Hotel and Restaurant Management)</p>
+        <div class="skills-img-wrap"></div>
+      </div> 
+      <!--Card 06-->
+      <div class="skills-card orange" id="card-06">
+        <h2>BSIT</h2><br>
+        <p>Bachelor of Science in Information Technology</p>
+        <div class="skills-img-wrap"></div>
+      </div> 
+      <!--Card 07-->
+      <div class="skills-card blue" id="card-07">
+        <h2>BSPsych</h2><br>
+        <p>Bachelor of Science in Psychology</p>
+        <div class="skills-img-wrap"></div>
+      </div> 
+    </div>
+  </section>
+
+  <footer>
+    <p>Cavite State Unversity official pages</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/CVSU.OUR/"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcvsucsg"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/cvsu.main/"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</body>
+<script src="/reprejava/style.js"></script>
+<script src="/reprejava/courses.js"></script>
+</html>
